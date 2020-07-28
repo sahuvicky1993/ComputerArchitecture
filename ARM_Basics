@@ -1,0 +1,16 @@
+* RISC based architecture.
+* Reduced Instruction Set Computer. It is a type of microprocessor architecture that uses a small set of instructions 
+  of uniform length. These are simple instructions which are generally executed in one clock cycle. More registers needed
+* ARM stands for Advanced RISC Machine
+* 32-bit architecture
+  * 32-bit Arm architecture, such as Armv7-A 
+  * CPU modes: User mode, FIQ mode, IRQ mode, Supervisor (svc) mode,
+  * Instruction set: Uniform 16 × 32-bit register file, single clock-cycle execution, Fixed instruction width of 32 bits to 
+    ease decoding and pipelining, at the cost of decreased code density.
+    * Arithmetic instructions
+    * Registers: R13 is also referred to as SP, the Stack Pointer.
+      R14 is also referred to as LR, the Link Register.
+      R15 is also referred to as PC, the Program Counter.
+    * Conditional execution:
+   * Pipelines: The Arm7 and earlier implementations have a three-stage pipeline; the stages being fetch, decode and execute. 
+      Higher-performance designs, such as the Arm9, have deeper pipelines: Cortex-A8 has thirteen stages.
